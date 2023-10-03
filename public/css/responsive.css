@@ -1,0 +1,178 @@
+/* Mobile */
+@media (max-width: 1023px) {
+    .nav-bar-btn {
+      display: block;
+      line-height: 65px;
+      margin-right: 23px;
+    }
+    .nav-pc {
+      display: none;
+    }
+    .main-header-img {
+      display: none;
+    }
+    #header {
+      justify-content: space-between;
+    }
+    .nav-contain {
+      max-width: 100%;
+      border-top: 1px solid #eee;
+      padding-top: 20px;
+    }
+    .nav-contain,
+    .form-contain,
+    .content
+    {
+      margin-left: 0;
+    }
+    .content {
+      width: unset;
+      margin: 0 8px;
+    }
+    .header-logo-text {
+      margin-left: 20px;
+    }
+    .nav-contain-title {
+      width: unset;
+      font-size: 31px;
+      margin: 0 20px;
+    }
+    .nav-contain-subtitle {
+      margin: 10px 20px;
+    }
+    .form-contain-item {
+      flex-wrap: wrap;
+      margin: 0 20px;
+    }
+    .input-time {
+      width: 138px;
+      margin-right: 0;
+    }
+    .input {
+      width: 193px;
+    }
+    .input-label {
+      font-size: 13px;
+    }
+    .input-where {
+      width: 100%;
+      margin-top: 12px;
+    }
+    .input-adress {
+      width: 100%;
+    }
+    .chevrondown-icon {
+      right: 19px;
+    }
+    .calculator-but {
+      width: 100%;
+    }
+    .first-content-header {
+      width: inherit;
+      flex-wrap: wrap;
+      gap: 13px ;
+      padding: 10px;
+    }
+    .first-content-header-list {
+      flex-wrap: wrap;
+      margin-left: 21px;
+    }
+    .first-content-container-top {
+      width: unset;
+    }
+    .first-content-container-bottom {
+      width: unset;
+    }
+    .first-content-container-bottom-contain {
+      justify-content: center !important;
+    }
+    .taxBerg-water-top {
+      bottom: -25px;
+      height: 93%;
+    }
+    .textBerg-text {
+      bottom: 419px;
+      left: -14px;
+    }
+    .textBerg-text-you {
+      left: -15px;
+    }
+    .textBerg-text-second {
+      right: 10px;
+      top: 360px;
+    }
+    .taxBerg-water-middle {
+      height: 250px;
+    }
+    .taxBerg-water-bottom {
+      height: 100%;
+    }
+    .taxBerg-container {
+      height: 1022px;
+    }
+    .total-tax {
+      flex-wrap: wrap;
+    }
+    .taxBerg-dash-second {
+      top: 379px;
+      left: 63.2%;
+    }
+    .people-ask-top {
+      width: unset;
+    }
+    .people-ask-bottom {
+      width: unset;
+      padding: 12px;
+    }
+    .summary-container {
+      width: unset;
+    }
+    .example {
+      margin-top: 30px;
+    }
+    .line-chart-img {
+      max-width: 100%;
+    }
+    .tax-income-link div {
+      width: 200px;
+    }
+    .contries-table-row {
+      font-size: 12px;
+    }
+    .contries-table-row-td:nth-child(2) {
+      width: 148px;
+    }
+    .contries-table-row-td:nth-child(3) {
+      width: 123px;
+    }
+    .notice-text {
+      width: unset;
+    }
+    .footer-contain-col-lists {
+      display: none;
+    }
+    .footer-contain-col-holder {
+      flex-direction: column;
+    }
+    #footer {
+      padding: unset;
+    }
+    .footer-contain {
+      padding-top: 10px;
+      width: unset;
+      max-width: unset;
+    }
+    .footer-contain-col {
+      border-bottom: 1px solid #eee;
+    }
+    .footer-end-item {
+      flex-direction: row;
+      border-bottom: none;
+      justify-content: space-between;
+    }
+    .footer-logo,
+    .logo-text
+    {
+      margin: unset;
+    }
+}
