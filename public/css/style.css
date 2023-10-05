@@ -993,3 +993,9 @@ body {
     top: 168px;
     left: 10px;
   }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+  }

@@ -8,11 +8,12 @@ use Illuminate\Http\Request;
 
 class TaxController extends Controller
 {
-    public function calculateTax(TaxRequest $request)
+    public function calculateTax(Request $request)
     {
         $money = $request->taxable;
         $result = TaxServiceFactory::calculateTax($request->country)->calculate($request->taxable);
         $deduction = $money - $result;
-        return view('/index', compact('money', 'result', 'deduction', 'country'));
+        $country = $request->country;
+        return view('index', compact('money', 'result', 'deduction', 'country'));
     }
 }
