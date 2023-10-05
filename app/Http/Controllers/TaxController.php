@@ -11,11 +11,8 @@ class TaxController extends Controller
     public function calculateTax(TaxRequest $request)
     {
         $money = $request->taxable;
-        // $country = $request->country;
         $result = TaxServiceFactory::calculateTax($request->country)->calculate($request->taxable);
         $deduction = $money - $result;
-        // dd($country);
-        // dd($result);
         return view('/index', compact('money', 'result', 'deduction', 'country'));
     }
 }

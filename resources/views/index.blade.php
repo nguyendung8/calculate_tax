@@ -395,14 +395,14 @@
                         <div class="dot"></div>
                       </div>
                     </div>
-                    <div class="textBerg-text-second">
+                    {{-- <div class="textBerg-text-second">
                       <div class="textBerge-number">
-                        {{-- {{ number_format($deduction,0,',',',' )}} ₫ --}}
+                        {{ number_format($deduction,0,',',',' )}} ₫
                       </div>
                       <div class="textBerg-subtitle">
                         Thuế mà người sử dụng lao động trả
                       </div>
-                    </div>
+                    </div> --}}
                     <div class="taxBerg-dash-you">
                       <div class="dot-dash-you">
                         <div class="dot"></div>
@@ -433,10 +433,10 @@
                       Tổng số tiền thuế đã trả
                     </div>
                     <div class="total-tax-number">
-                      18,237,500 ₫
+                        {{ number_format($deduction,0,',',',' )}} ₫ ₫
                     </div>
                     <div class="total-text-info">
-                      Bạn có biết chủ lao động của bạn cũng đóng thuế trên lương của bạn không? Để trả bạn 4,166,667 ₫, chủ lao động phải mất 895,833 ₫. Nói cách khác, mỗi khi bạn tiêu 10 ₫ từ số tiền bạn vất vả kiếm được, 3.65 ₫ được đóng cho chính phủ.
+                      Bạn có biết chủ lao động của bạn cũng đóng thuế trên lương của bạn không? Để trả bạn {{ number_format($money,0,',',',' )}} ₫, chủ lao động phải mất 895,833 ₫. Nói cách khác, mỗi khi bạn tiêu 10 ₫ từ số tiền bạn vất vả kiếm được, 3.65 ₫ được đóng cho chính phủ.
                     </div>
                   </div>
                   <div class="total-tax-text">
